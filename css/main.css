@@ -1143,12 +1143,6 @@ pre .javascript .function {
   padding: 2px;
   border-radius: 50%;
 }
-.site-author-image {
-  transition: transform 1s ease-out;
-}
-.site-author-image:hover {
-  transform: rotateZ(360deg);
-}
 .site-author-name {
   color: #f5f5f5;
   font-weight: normal;
@@ -1175,7 +1169,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #fffaff;
+  background: #ffeead;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2297,7 +2291,7 @@ embed {
   white-space: nowrap;
 }
 body {
-  background: url("A:/Blog/themes/next/source/images/background.png");
+  background: url("images/background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
